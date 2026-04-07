@@ -17,12 +17,12 @@ int main()
     orang mhs;
     //isi obyek
     cout << "nama mahasiswa : " ;
-    cin >> mhs.nama;
+    getline(cin, mhs.nama);
     cout << "alamat desa : " ;
-    cin >> mhs.alamat.desa;
-    cout << "alamat kota : " ;
-    cin >> mhs.alamat.kota;
+    getline(cin, mhs.alamat.desa);
     cout << "umur : " ;
+    getline(cin, mhs.alamat.kota);
+    cout << "umur : ";
     cin >> mhs.umur;
     cout << endl;
     //menampilkan isi obyek
