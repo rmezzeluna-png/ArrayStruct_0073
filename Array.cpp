@@ -26,4 +26,23 @@ int main(){
     cin >> datamu [2] ;
     cout<<"data index ke - 3 : " ;
     cin >> datamu [3] ;
+    cout<<"data index ke - 4 : " ;
+    cin >> datamu [4] ;
+
+    cout << endl;
+
+    //isi data dengan pengulangan  for
+    for(int i = 0; <= 5; i++)
+    {
+        cout << "data index ke -"<< i << " : " ;
+        cin >> datamu[i] ;
+    }
+
+    cout<<endl; 
+    //menampilkan datamu dengan perulangan for
+    for (int i = 0; i <= 4; i++)
+
+    {
+        cout << "data ke - "<< i+1 << " : " << datamu[i] <<endl;
+    }
 }
