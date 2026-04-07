@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
     //deklarasi array dengan inisialisasi
-    int dataku[s] = {10,20,30,40,50};
+    int dataku [5] = {10,20,30,40,50};
     //deklarasi tanpa inisialisasi
-    int datamu[s];
+    int datamu [5];
     int x;
     //cara membaca array dataku
     cout << "data ke - 3 : " << dataku[2]<<endl;
@@ -32,7 +32,7 @@ int main(){
     cout << endl;
 
     //isi data dengan pengulangan  for
-    for(int i = 0; <= 5; i++)
+    for(int i = 0; i <= 5; i++)
     {
         cout << "data index ke -"<< i << " : " ;
         cin >> datamu[i] ;
