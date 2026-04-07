@@ -16,4 +16,11 @@ int main()
     //deklarasi obyek dari strucct orang
     orang mhs;
     //isi obyek
+    cout << "nama mahasiswa : " ;
+    cin >> mhs.nama;
+     cout << "alamat desa : " ;
+    cin >> mhs.alamat.desa;
+     cout << "umur : " ;
+    cin >> mhs.umur;
+    cout << endl;
 }
