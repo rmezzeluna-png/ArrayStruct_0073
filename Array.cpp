@@ -14,4 +14,16 @@ int main(){
     x = dataku[2]*3;
     //cara menulis atau mengisi array
     dataku[2] = 600;
+
+    cout << "data ke - 3 yang baru : " << dataku [2] <<endl;
+
+    //mengisi array datamu satu per satu
+    cout<<"data index ke - 0 : " ;
+    cin >> datamu [0] ;
+    cout<<"data index ke - 1 : " ;
+    cin >> datamu [1] ;
+    cout<<"data index ke - 2 : " ;
+    cin >> datamu [2] ;
+    cout<<"data index ke - 3 : " ;
+    cin >> datamu [3] ;
 }
