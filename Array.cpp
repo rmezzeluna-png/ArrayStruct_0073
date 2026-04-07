@@ -7,5 +7,8 @@ int main(){
     //deklarasi tanpa inisialisasi
     int datamu[s];
     int x;
+    //cara membaca array dataku
+    cout << "data ke - 3 : " << dataku[2]<<endl;
+    
     
 }
